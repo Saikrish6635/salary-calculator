@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Allocation Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Salary Allocation Calculator</h1>
+            <p>Enter your salary to see how it's divided among expenses, personal savings, and investments.</p>
+        </header>
+        <main>
+            <section class="input-section">
+                <label for="salaryInput">Enter Your Salary:</label>
+                <input type="number" id="salaryInput" placeholder="Enter your salary">
+                <button id="calculateButton">Calculate</button>
+            </section>
+            <section id="results">
+                <div class="result-section" id="ratioResults">
+                    <h2>Salary Allocation</h2>
+                    <p id="expensesResult"></p>
+                    <p id="personalExpensesResult"></p>
+                    <p id="investmentsResult"></p>
+                </div>
+                <div class="result-section" id="investmentBreakdown">
+                    <h2>Investment Breakdown</h2>
+                    <p id="fdResult"></p>
+                    <p id="rdResult"></p>
+                    <p id="sipMutualFundResult"></p>
+                    <p id="personalSavingsResult"></p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Salary Calculator. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
